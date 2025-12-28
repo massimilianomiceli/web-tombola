@@ -4,7 +4,7 @@
   font-style: normal;
 }
 
-header, main{
+body{
     background-color: rgb(76, 161, 148);
 }
 
@@ -13,4 +13,21 @@ header, main{
     color: white;
     font-size: 4rem;
     text-align: center;
+}
+
+.tombolaCirce{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100%;
+    width: 8%;
+    margin: 1%;
+	aspect-ratio: 1;
+	border-radius: 50px;
+
+    background: #ffffff;
+    color: #000000;
+    font-weight: 700;
+
+    box-shadow:-2px 2px 0px 0px #BFBFBF;
 }
