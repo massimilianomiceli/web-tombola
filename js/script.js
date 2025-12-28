@@ -1,6 +1,8 @@
 const bingoTableElement = document.getElementById("bingo-table");
 const drawButtonElement  = document.getElementById("btn-draw");
+const endGameButtonElement  = document.getElementById("btn-end-game");
 const tombolaSquareElement  = document.getElementById("tombolaSquare");
+
 const calledNumbers = [];
 
 
@@ -25,7 +27,8 @@ drawButtonElement.addEventListener("click", function(){
         calledNumbersElement.classList.add("tombolaRedCirce");
         tombolaSquareElement.textContent = calledNumber;
     } else alert("Attenzione! Hai già estratto tutti i numeri.");
-
-
 });
 
+endGameButtonElement.addEventListener("click", function(){
+    location.reload();
+});
