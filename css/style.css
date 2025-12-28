@@ -11,7 +11,7 @@ body{
 #logo{
     font-family: "Gochi Hand", cursive;
     color: white;
-    font-size: 4rem;
+    font-size: 6rem;
     text-align: center;
 }
 
@@ -19,7 +19,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 100%;
+    font-size: 1.5rem;
     width: 8%;
     margin: 1%;
 	aspect-ratio: 1;
@@ -30,4 +30,17 @@ body{
     font-weight: 700;
 
     box-shadow:-2px 2px 0px 0px #BFBFBF;
+}
+
+.tombolaSquare{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    width: 40%;
+	aspect-ratio: 1;
+    background: #ffffff;
+    color: #000000;
+    font-weight: 700;
+
 }
