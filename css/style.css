@@ -32,7 +32,12 @@ body{
     box-shadow:-2px 2px 0px 0px #BFBFBF;
 }
 
-.tombolaSquare{
+.tombolaRedCirce{
+    background-color: rgb(230, 146, 165);
+    box-shadow:-2px 2px 0px 0px rgb(147, 61, 56);
+}
+
+#tombolaSquare{
     display: flex;
     align-items: center;
     justify-content: center;
