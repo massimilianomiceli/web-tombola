@@ -1,0 +1,16 @@
+.gochi-hand-regular {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header, main{
+    background-color: rgb(76, 161, 148);
+}
+
+#logo{
+    font-family: "Gochi Hand", cursive;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+}
